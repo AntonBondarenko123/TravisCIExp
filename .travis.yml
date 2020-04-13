@@ -41,8 +41,8 @@ matrix:
 #  - pip install -U pip
 #  - pip install -U pytest
 #  - pip install codecov
-#install:
-#  - pip install ".[test]"
+install:
+  - pip install ".setup.py"
 #script: pytest
 #after_success:
 #  - codecov # submit coverage
