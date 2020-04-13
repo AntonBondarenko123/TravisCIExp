@@ -1,13 +1,11 @@
 from time import sleep
 
+import allure
 from selenium import webdriver
 import geckodriver_autoinstaller
 from selenium.webdriver.firefox.options import Options
 
 geckodriver_autoinstaller.install()  # Check if the current version of geckodriver exists
-
-
-# and if it doesn't exist, download it automatically,
 
 
 def test_login_button():
