@@ -16,6 +16,7 @@ matrix:
         - pip3 install -U pytest
         - pip3 install codecov
         - pip install selenium
+        - pip install geckodriver_autoinstaller
       script: python3 -m pytest
       after_success: python 3 -m codecov
 #    #  ====== WINDOWS =========
