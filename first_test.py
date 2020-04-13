@@ -1,6 +1,3 @@
-from time import sleep
-
-import allure
 from selenium import webdriver
 import geckodriver_autoinstaller
 from selenium.webdriver.firefox.options import Options
